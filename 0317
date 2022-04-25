@@ -5,72 +5,72 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇭🇰 cloudcone, server: cc.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: cc.pharmatechcn.net}
-  - {name: 🇨🇳 racknerd, server: rock.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: rock.pharmatechcn.net}
-  - {name: 🇺🇲 圣何塞, server: fast.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: fast.pharmatechcn.net}
-  - {name: 🇺🇲 UK, server: uk.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: uk.pharmatechcn.net}
-  - {name: 🇺🇲 上海联通中转CC, server: shcu2.forgebukkit.com, port: 17178, type: trojan, password: helloiven, sni: cc.pharmatechcn.net}
+  - {name: cloudcone, server: cc.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: cc.pharmatechcn.net}
+  - {name: racknerd, server: rock.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: rock.pharmatechcn.net}
+  - {name: 圣何塞, server: fast.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: fast.pharmatechcn.net}
+  - {name: UK, server: uk.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: uk.pharmatechcn.net}
+  - {name: 上海联通中转CC, server: shcu2.forgebukkit.com, port: 17178, type: trojan, password: helloiven, sni: cc.pharmatechcn.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 cloudcone
-      - 🇨🇳 racknerd
-      - 🇺🇲 圣何塞
-	  - 🇺🇲 UK
-	  - 🇺🇲 上海联通中转CC
+      - cloudcone
+      - racknerd
+      - 圣何塞
+      - UK
+      - 上海联通中转CC
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 cloudcone
-      - 🇨🇳 racknerd
-      - 🇺🇲 圣何塞
-	  - 🇺🇲 UK
-	  - 🇺🇲 上海联通中转CC
+      - cloudcone
+      - racknerd
+      - 圣何塞
+      - UK
+      - 上海联通中转CC
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 cloudcone
-      - 🇨🇳 racknerd
-      - 🇺🇲 圣何塞
-	  - 🇺🇲 UK
-	  - 🇺🇲 上海联通中转CC
+      - cloudcone
+      - racknerd
+      - 圣何塞
+      - UK
+      - 上海联通中转CC
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 cloudcone
-	  - 🇨🇳 racknerd
-      - 🇺🇲 圣何塞
-	  - 🇺🇲 UK
-	  - 🇺🇲 上海联通中转CC
+      - cloudcone
+      - racknerd
+      - 圣何塞
+      - UK
+      - 上海联通中转CC
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 cloudcone
-      - 🇨🇳 racknerd
-      - 🇺🇲 圣何塞
-	  - 🇺🇲 UK
-	  - 🇺🇲 上海联通中转CC
+      - cloudcone
+      - racknerd
+      - 圣何塞
+      - UK
+      - 上海联通中转CC
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
-      - 🇭🇰 cloudcone
-      - 🇨🇳 racknerd
-      - 🇺🇲 圣何塞
-	  - 🇺🇲 UK
-	  - 🇺🇲 上海联通中转CC
+      - cloudcone
+      - racknerd
+      - 圣何塞
+      - UK
+      - 上海联通中转CC
       - 🎯 全球直连
   - name: 🍎 苹果服务
     type: select
@@ -78,11 +78,11 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇭🇰 cloudcone
-      - 🇨🇳 racknerd
-      - 🇺🇲 圣何塞
-	  - 🇺🇲 UK
-	  - 🇺🇲 上海联通中转CC
+      - cloudcone
+      - racknerd
+      - 圣何塞
+      - UK
+      - 上海联通中转CC
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -98,11 +98,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 cloudcone
-      - 🇨🇳 racknerd
-      - 🇺🇲 圣何塞
-	  - 🇺🇲 UK
-	  - 🇺🇲 上海联通中转CC
+      - cloudcone
+      - racknerd
+      - 圣何塞
+      - UK
+      - 上海联通中转CC
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

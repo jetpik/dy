@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 上海联通B中转CC, server: shcu2.forgebukkit.com, port: 17178, type: trojan, password: helloiven, sni: cc.pharmatechcn.net, skip-cert-verify: false, udp: true}
+  - {name: 上海联通D中转CC, server: shcu4.forgebukkit.com, port: 17178, type: trojan, password: helloiven, sni: cc.pharmatechcn.net, skip-cert-verify: false, udp: true}
   - {name: 广州移动B中转UK, server: 112.33.52.65, port: 30535, type: trojan, password: helloiven, sni: uk.pharmatechcn.net, skip-cert-verify: false, udp: true}
   - {name: 上海联通D中转rock, server: shcu4.forgebukkit.com, port: 16602, type: trojan, password: helloiven, sni: rock.pharmatechcn.net, skip-cert-verify: false, udp: true}
   - {name: 圣何塞9929, server: fast.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: fast.pharmatechcn.net, skip-cert-verify: false, udp: true}
@@ -17,7 +17,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 上海联通B中转CC
+      - 上海联通D中转CC
       - 广州移动B中转UK
       - 上海联通D中转rock
       - 圣何塞9929
@@ -28,7 +28,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 上海联通B中转CC
+      - 上海联通D中转CC
       - 广州移动B中转UK
       - 上海联通D中转rock
       - 圣何塞9929
@@ -40,7 +40,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 上海联通B中转CC
+      - 上海联通D中转CC
       - 广州移动B中转UK
       - 上海联通D中转rock
       - 圣何塞9929
@@ -64,7 +64,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 上海联通B中转CC
+      - 上海联通D中转CC
       - 广州移动B中转UK
       - 上海联通D中转rock
       - 圣何塞9929
@@ -80,7 +80,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 上海联通B中转CC
+      - 上海联通D中转CC
       - 广州移动B中转UK
       - 上海联通D中转rock
       - 圣何塞9929
@@ -91,7 +91,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 上海联通B中转CC
+      - 上海联通D中转CC
       - 广州移动B中转UK
       - 上海联通D中转rock
       - 圣何塞9929
@@ -103,7 +103,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 上海联通B中转CC
+      - 上海联通D中转CC
       - 广州移动B中转UK
       - 上海联通D中转rock
       - 圣何塞9929
@@ -124,7 +124,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 上海联通B中转CC
+      - 上海联通D中转CC
       - 广州移动B中转UK
       - 上海联通D中转rock
       - 圣何塞9929

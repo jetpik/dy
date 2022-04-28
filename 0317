@@ -9,7 +9,7 @@ proxies:
   - {name: racknerd, server: rock.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: rock.pharmatechcn.net}
   - {name: 圣何塞, server: fast.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: fast.pharmatechcn.net}
   - {name: UK, server: uk.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: uk.pharmatechcn.net}
-  - {name: 上海联通中转CC, server: shcu2.forgebukkit.com, port: 17178, type: trojan, password: helloiven, sni: cc.pharmatechcn.net}
+  - {name: 上海联通中转CC, server: shcu4.forgebukkit.com, port: 17178, type: trojan, password: helloiven, sni: cc.pharmatechcn.net}
 proxy-groups:
   - name: 🔰 节点选择
     type: select

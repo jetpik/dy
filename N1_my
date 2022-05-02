@@ -11,6 +11,8 @@ proxies:
   - {name: 圣何塞9929, server: fast.pharmatechcn.net, port: 45459, type: trojan, password: helloiven, sni: fast.pharmatechcn.net, skip-cert-verify: false, udp: true}
   - {name: 上海联通C中转SG, server: shcu3.forgebukkit.com, port: 14503, type: trojan, password: helloiven, sni: sg.pharmatechcn.net, skip-cert-verify: false, udp: true}
   - {name: 上海联通D中转JP, server: shcu4.forgebukkit.com, port: 11273, type: trojan, password: helloiven, sni: jp.pharmatechcn.net, skip-cert-verify: false, udp: true}
+  - {name: 广州移动B中转SG, server: 112.33.52.65, port: 30536, type: trojan, password: helloiven, sni: sg.pharmatechcn.net, skip-cert-verify: false, udp: true}
+  - {name: 广州移动B中转JP, server: 112.33.52.65, port: 30537, type: trojan, password: helloiven, sni: jp.pharmatechcn.net, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -23,6 +25,8 @@ proxy-groups:
       - 圣何塞9929
       - 上海联通C中转SG
       - 上海联通D中转JP
+      - 广州移动B中转SG
+      - 广州移动B中转JP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -34,6 +38,8 @@ proxy-groups:
       - 圣何塞9929
       - 上海联通C中转SG
       - 上海联通D中转JP
+      - 广州移动B中转SG
+      - 广州移动B中转JP
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -46,6 +52,8 @@ proxy-groups:
       - 圣何塞9929
       - 上海联通C中转SG
       - 上海联通D中转JP
+      - 广州移动B中转SG
+      - 广州移动B中转JP
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -70,6 +78,8 @@ proxy-groups:
       - 圣何塞9929
       - 上海联通C中转SG
       - 上海联通D中转JP
+      - 广州移动B中转SG
+      - 广州移动B中转JP
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -86,6 +96,8 @@ proxy-groups:
       - 圣何塞9929
       - 上海联通C中转SG
       - 上海联通D中转JP
+      - 广州移动B中转SG
+      - 广州移动B中转JP
   - name: 📲 电报信息
     type: select
     proxies:
@@ -97,6 +109,8 @@ proxy-groups:
       - 圣何塞9929
       - 上海联通C中转SG
       - 上海联通D中转JP
+      - 广州移动B中转SG
+      - 广州移动B中转JP
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -109,6 +123,8 @@ proxy-groups:
       - 圣何塞9929
       - 上海联通C中转SG
       - 上海联通D中转JP
+      - 广州移动B中转SG
+      - 广州移动B中转JP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,6 +146,8 @@ proxy-groups:
       - 圣何塞9929
       - 上海联通C中转SG
       - 上海联通D中转JP
+      - 广州移动B中转SG
+      - 广州移动B中转JP
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
